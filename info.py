@@ -112,8 +112,6 @@ SETTINGS = {
             'auto_filter': AUTO_FILTER,
             'file_secure': PROTECT_CONTENT,
             'auto_delete': AUTO_DELETE,
-            'template': IMDB_TEMPLATE,
-            'caption': FILE_CAPTION,
             'tutorial': TUTORIAL,
             'shortner': SHORTENER_WEBSITE,
             'api': SHORTENER_API,
