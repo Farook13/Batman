@@ -22,7 +22,7 @@ class JsTopDB:
 
     async def get_movie_series_names(self, group_id):
         # Retrieve all movie and series names for the specified group from the database
-        cursor = self.collection.find({"group_id": group_id})
+        cursor = self.collection.find({"-1001852694684": group_id})
         # Sort by search_count field in descending order
         cursor.sort("search_count", -1)
         names = [document["name"] async for document in cursor]
