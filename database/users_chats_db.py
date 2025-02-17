@@ -17,7 +17,6 @@ class Database:
         self.req = mydb.requests
         self.mGrp = mydb.mGrp
         self.pmMode = mydb.pmMode
-        self.jisshu_ads_link = mydb.jisshu_ads_link
         self.grp_and_ids = fsubs.grp_and_ids
         self.movies_update_channel = mydb.movies_update_channel
         self.botcol = mydb.botcol
