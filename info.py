@@ -18,14 +18,14 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '12618934'))
 API_HASH = environ.get('API_HASH', '49aacd0bc2f8924add29fb02e20c8a16')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7660053695:AAFzMTXjfSwXzTnhBljCxO7HCtJTzwkkH1w')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7857321740:AAEtcoE9BbLGCaF5TlkeGvhLZpXU36vco8E')
 
 # Admin and Channel Settings
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7837304801').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5032034594').split()]
 USERNAME = environ.get('COLONEL', "https://t.me/")  # Admin username or link
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002362610953'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/movieupdates_tg')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002429375834').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002467149516'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/batmanmoviehub')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002256041072').split()]
 
 # Database Settings
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://saidalimuhamed88:iladias2025@cluster0.qt4dv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -33,18 +33,19 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 
 # Additional Channel Settings
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002362610953'))  # Log channel for API-related info
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '--
+1002467149516'))  # Log channel for API-related info
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS', '0'))  # Channel where uploaded movies are deleted from bot
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))  # Verification log channel
-auth_channel = environ.get('AUTH_CHANNEL', 'https://t.me/colonol_updates')  # Force-sub channel
+auth_channel = environ.get('AUTH_CHANNEL', 'https://t.me/zoromovie13')  # Force-sub channel
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002187734788'))  # Support group ID
 request_channel = environ.get('REQUEST_CHANNEL', 'https://t.me/request_channel77')  # Request channel for user requests
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002429375834'))  # Channel for movie updates
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/colonel_support')  # Support chat link
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))  # Channel for movie updates
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/zoromovie13')  # Support chat link
 
 # Verification Settings (without premium-related verification)
 IS_VERIFY = is_enabled('IS_VERIFY', False)
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Co1one1_bot")  # How-to-use tutorial link
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/zoromovie13")  # How-to-use tutorial link
 
 # File Filtering Options
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi"]
