@@ -57,8 +57,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 
 # Bot Appearance Settings
-START_IMG = (environ.get('START_IMG', 'https://envs.sh/mBN.jpg')).split()  # Start command image
-FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')  # Force-sub image
+START_IMG = (environ.get('START_IMG', 'https://graph.org/file/8ac9be0d690c03e4a6d58-052f8fcda4d18922b8.jpg https://envs.sh/t7j.jpg https://envs.sh/t7c.jpg  https://envs.sh/t7G.jpg https://envs.sh/t7L.jpg https://envs.sh/t7c.jpg https://envs.sh/t7_.jpg https://envs.sh/tzT.jpg ')).split()  # Start command image
+FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://envs.sh/eWS.jpg')  # Force-sub image
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]  # Reaction emojis
 
 # Bot Behavior Settings
