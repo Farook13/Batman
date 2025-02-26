@@ -345,7 +345,7 @@ NOTE:
 
 developer : COLONEL_BOTZS
 </b>""" 
-    GROUP_C_TEXT = """<b><blockquote>
+    GROUP_C_TEXT = ""<b><blockquote>
  --------------Set Verify-------------
 /set_verify {website link} {website api}
 /set_verify_2 {website link} {website api}
