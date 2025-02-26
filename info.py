@@ -92,7 +92,6 @@ SETTINGS = {
     'file_secure': PROTECT_CONTENT,
     'auto_delete': AUTO_DELETE,
     'template': IMDB_TEMPLATE,
-    'caption': FILE_CAPTION,
     'tutorial': TUTORIAL,
     'log': LOG_VR_CHANNEL,
     'imdb': IMDB,
