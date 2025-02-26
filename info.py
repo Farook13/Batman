@@ -33,7 +33,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 
 # Additional Channel Settings
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '1002467149516'))  # Log channel for API-related info
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002467149516'))  # Log channel for API-related info
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS', '0'))  # Channel where uploaded movies are deleted from bot
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))  # Verification log channel
 auth_channel = environ.get('AUTH_CHANNEL', '-1002407207522')  # Force-sub channel
